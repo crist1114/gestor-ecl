@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="GestorECL_PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>DTO.Email</class>
+    <class>DTO.Multa</class>
+    <class>DTO.Reserva</class>
+    <class>DTO.Estudiante</class>
+    <class>DTO.Libro</class>
+    <class>DTO.Notificacion</class>
+    <class>DTO.Categoria</class>
+    <class>DTO.Prestamo</class>
+    <class>DTO.Admin</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://mysql.madarme.co:3306/estudiante_12?serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.user" value="estudiante_12"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="uVJCzZwHh3"/>
+    </properties>
+  </persistence-unit>
+</persistence>

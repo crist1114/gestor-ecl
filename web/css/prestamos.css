@@ -1,0 +1,22 @@
+body{
+
+    background : url("https://i.postimg.cc/bvFhDS1X/op5.png")  no-repeat;
+    background-size: cover;
+    
+   
+ }
+
+#fotoPerfil{
+
+    width: 150px;
+    height: 150px;
+    min-width: 10px;
+    min-height: 10px;
+   
+    
+}
+
+.contenedor{
+
+
+}

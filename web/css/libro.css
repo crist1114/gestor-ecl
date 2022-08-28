@@ -1,0 +1,20 @@
+body{
+
+    background : url("https://i.postimg.cc/bvFhDS1X/op5.png")  no-repeat;
+    background-size: cover;
+    
+   
+ }
+#portada{
+
+    width: 400px;
+    height: 500px;
+    min-width: 10px;
+    min-height: 20px;
+    
+}
+
+
+.row{
+    border-radius: 5px;
+}

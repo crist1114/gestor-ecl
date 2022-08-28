@@ -1,0 +1,20 @@
+body {
+   background : url("https://i.postimg.cc/9XqHC26Z/op5.png")  no-repeat; 
+   background-size: cover;
+   background-position: inherit;
+}
+
+a{
+    
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    text-decoration: none;
+}
+
+lu{
+    
+    text-decoration: none;
+}

@@ -1,0 +1,54 @@
+
+
+body{
+
+   background : url("https://i.postimg.cc/bvFhDS1X/op5.png")  no-repeat;
+   background-size: cover;
+   
+  
+}
+
+.botones {
+
+    
+    border:none;
+    border-radius: 5px;
+    max-width: auto;
+    font-size: 1em;
+    width: 250px;
+    height: 45px;
+    min-width: 10px;
+     
+    min-height: 10px;
+    
+}
+
+
+
+
+
+button:hover{
+
+    background-color: rgb(27, 102, 46);
+    color: white;
+}
+
+
+
+.botonlogin{
+    background-color: rgb(48, 44, 44);
+    color: white;
+}
+
+.div-container {
+
+    border-radius: 15px;
+    position:relative;
+    
+}
+
+#logoufps{
+    width: 100px;
+    min-width: 1px;
+    min-height: 1px;
+}
